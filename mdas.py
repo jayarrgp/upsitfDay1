@@ -1,0 +1,6 @@
+x = float(input("Enter first number: "))
+y = float(input("Enter second number: "))
+print("Division: %d / %d = %.1f" %(x, y, float(x/y)))
+print("Multiplication: %d * %d = %d" %(x, y, x*y))
+print("Addition: %d + %d = %d" %(x, y, x+y))
+print("Subtraction: %d - %d = %d" %(x, y, x-y))

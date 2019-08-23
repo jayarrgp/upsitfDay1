@@ -1,0 +1,5 @@
+conversionRate = float(input("Enter conversion rate of a Dollar to Peso: "))
+amountDollars = float(input("Enter amount in Dollars: "))
+print("1 Dollar = %.2f Pesos" %conversionRate)
+print("1 Peso = %.2f Dollars" %(float(amountDollars/conversionRate)))
+print("%d Dollars = %.2f Pesos" %(amountDollars ,float(amountDollars*conversionRate)))
